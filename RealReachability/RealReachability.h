@@ -28,6 +28,8 @@
 
 #import <Foundation/Foundation.h>
 #import "LocalConnection.h"
+#include <sys/socket.h>
+#include <netinet/in.h>
 
 #define GLobalRealReachability [RealReachability sharedInstance]
 
